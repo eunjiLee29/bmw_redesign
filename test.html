@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.9.0/video-js.min.css" integrity="sha512-NtJr0XsYNMpoCPVgJeYyWDMrTBgUzFDu7nrn45XOMMMS5q1EirTPx3NTWfgyZK7QLz/WbveVaYh2sjnIKq8ZjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.9.0/video.min.js" integrity="sha512-Vrx9MGxygyARa2dIGb2zEdRm2FsmFrm7R/MCfsqEzJ3FpCHqrgdwFtjpG749L3rG3yH4i+p2JbnocYjLHIzT5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- 출처: https://ibks-platform.tistory.com/397 [남산 아래 개발자들:티스토리] -->
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    section {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
+    #myPlayer {
+        width: 120%;
+        height: 100%;
+        object-fit: cover;
+        margin-left: -10%;
+    }
+</style>
+</head>
+
+<body>
+    <section>
+
+        <video id="myPlayer" class="video-js vjs-default-skin" webkit-playsinline></video>
+    </section>
+
+ 
+    <script>
+        var player = videojs("myPlayer", {
+            sources : [
+                { src : "https://bmw.scene7.com/is/content/BMW/P001_SL_G60-8135_Ext_Dsk_v001-AVS.m3u8"}
+            ],
+            poster : "https://bmw.scene7.com/is/content/BMW/P001_SL_G60-8135_Ext_Dsk_v001-AVS.m3u8",
+            controls : false,
+            playsinline : true,
+            muted : true,
+            loop: true,
+            autoplay: true,
+            preload : "metadata",
+            controlBar : {
+                playToggle : false,
+                pictureInPictureToggle : false,
+                remainingTimeDisplay : false,
+                progressControl : false,
+            }
+        }); 
+    </script>
+</body>
+
+</html>

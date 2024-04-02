@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bmw_korea</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.9.0/video-js.min.css"
+        integrity="sha512-NtJr0XsYNMpoCPVgJeYyWDMrTBgUzFDu7nrn45XOMMMS5q1EirTPx3NTWfgyZK7QLz/WbveVaYh2sjnIKq8ZjQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.9.0/video.min.js"
+        integrity="sha512-Vrx9MGxygyARa2dIGb2zEdRm2FsmFrm7R/MCfsqEzJ3FpCHqrgdwFtjpG749L3rG3yH4i+p2JbnocYjLHIzT5Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header class="header" id="header">
+            <div class="inner">
+                <div class="header-inner">
+                    <h1>
+                        <a href="#">
+                            <img src="img/BMW_White_Logo.svg.asset.1670245093434.svg" alt="logo">
+                        </a>
+                    </h1>
+                    <nav>
+                        <ul class="gnb">
+                            <li class="depth01">
+                                <a href="#">소개</a>
+                                <ul class="depth02">
+                                    <li><a href="#">BMW i</a></li>
+                                    <li><a href="#">BMW M</a></li>
+                                    <li><a href="#">BMW 아트</a></li>
+                                    <li><a href="#">BMW 비전 노이어 클라쎄</a></li>
+                                    <li><a href="#">BMW 콘셉트카</a></li>
+                                </ul><!-- .depth02 end -->
+                            </li><!-- .depth01 /01 end -->
+                            <li class="depth01">
+                                <a href="#">모델</a>
+                                <ul class="depth02">
+                                    <li><a href="#">플러그인 하이브리드</a></li>
+                                    <li><a href="#">순수 전기</a></li>
+                                    <li><a href="#">BMW M</a></li>
+                                    <li><a href="#">BMW i</a></li>
+                                    <li><a href="#">NEW</a></li>
+                                </ul><!-- .depth02 end -->
+                            </li><!-- .depth01 /02 end -->
+                            <li class="depth01">
+                                <a href="#">구매</a>
+                                <ul class="depth02">
+                                    <li><a href="#">BMW 공식 딜러 전시장</a></li>
+                                    <li><a href="#">BMW 공식 인증 중고차</a></li>
+                                    <li><a href="#">BMW 샵 온라인</a></li>
+                                    <li><a href="#">내 차 사기 혜택</a></li>
+                                    <li><a href="#">내 차 판매 문의</a></li>
+                                    <li><a href="#">내 차 팔기 혜택</a></li>
+                                    <li><a href="#">희망 차량 등록 알림</a></li>
+                                </ul><!-- .depth02 end -->
+                            </li><!-- .depth01 /03 end -->
+                            <li class="depth01">
+                                <a href="#">체험</a>
+                                <ul class="depth02">
+                                    <li><a href="#">BMW M 타운</a></li>
+                                    <li><a href="#">BMW 골프컵</a></li>
+                                    <li><a href="#">BMW 레이디스 챔피언십 2024</a></li>
+                                    <li><a href="#">BMW 엑설런스 라운지 2023</a></li>
+                                    <li><a href="#">BMW 엑설런스 클럽</a></li>
+                                </ul><!-- .depth02 end -->
+                            </li><!-- .depth01 /04end -->
+                            <li class="depth01">
+                                <a href="#">고객지원</a>
+                                <ul class="depth02">
+                                    <li><a href="#">자주 묻는 질문</a></li>
+                                    <li><a href="#">고객센터</a></li>
+                                </ul><!-- .depth02 end -->
+                            </li><!-- .depth01 /05 end -->
+                        </ul><!-- .gnb end -->
+                    </nav>
+                    <ul class="util">
+                        <li><a href="#"><img src="img/마이페이지.png" alt="마이 페이지"></a></li>
+                        <li><a href="#"><img src="img/돋보기.png" alt="검색창"></a></li>
+                    </ul><!-- .util end -->
+                </div><!-- .header-inner end -->
+            </div><!-- .inner end -->
+        </header><!-- .header end -->
+        <main id="main">
+            <section class="main_visual" id="main_visual">
+                <figure>
+                    <video id="myPlayer" class="video-js vjs-default-skin" webkit-playsinline></video>
+
+                </figure>
+                <div class="title">
+                    <h2>THE NEW i5</h2>
+                    <p>순수전기 bmw 뉴 5시리즈.</p>
+                    <a href="#" class="btn_next">
+                        <span>자세히보기</span>
+                    </a>
+                </div><!-- .title end -->
+                <div class="icon-scroll">
+                    <span id="icon-mouse"><i>스크롤아이콘</i></span>
+                    <p>scroll down</p>
+                </div><!-- .icon-scroll end -->
+
+                <div class="icon-chat">
+                    <a href="#">
+                        <div>
+                            <figure>
+                                <img src="img/trim_검정_문의하기박스.png" alt="문의하기">
+                            </figure>
+                        </div>
+                    </a>
+                </div><!-- .icon-chat end -->
+                <div class="icon-top-scroll">
+                    <a href="#main_visual"><!-- 화면 최상단으로 이동 -->
+                        <div>
+                            <figure>
+                                <img src="img/화살표_위.png" alt="화면 최상단 스크롤 버튼">
+                            </figure>
+                        </div>
+                    </a>
+                </div><!-- .icon-top-scroll end -->
+            </section><!-- .main_visual end -->
+            <section class="cont01">
+                <div class="inner">
+                    <div class="title">
+                        <h3>OUR MODELS</h3>
+                        <P>역동적이면서도 우아한 디자인과 최첨단 기술을 탑재한 BMW 브랜드의 라인업을 살펴보세요.</P>
+                    </div><!-- .title end -->
+                    <ul class="category">
+                        <li class="depth01">
+                            <div>
+                                <a href="#">ALL</a>
+                                <a href="#"><img src="img/짧은화살표_오(작은사이즈).png" alt="아이콘"></a>
+                            </div>
+                            <ul class="depth02">
+                                <li><a href="#">순수전기</a></li>
+                                <li><a href="#">가솔린</a></li>
+                                <li><a href="#">하이브리드</a></li>
+                                <li><a href="#">디젤</a></li>
+                            </ul><!-- .depth02-1 end -->
+                        </li><!-- .depth01 end -->
+                    </ul><!-- .category end -->
+
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="box-slide">
+                                    <div class="title">
+                                        <div>
+                                            <h4>BMW 뉴 i5</h4>
+                                            <span>NEW</span>
+                                        </div>
+                                        <p>순수전기</p>
+                                    </div><!-- .title end -->
+                                    <figure>
+                                        <img src="img/model001-1_trim.png" alt="차종01">
+                                    </figure>
+                                    <div class="btn-slide">
+                                        <span>자세히보기</span>
+                                    </div><!-- .btn-slide end -->
+                                </div><!-- box-slide end -->
+                            </div><!-- .swiper-slide /01 end -->
+                            <div class="swiper-slide">
+                                <div class="box-slide">
+                                    <div class="title">
+                                        <h4>BMW M4 컴페티션</h4>
+                                        <p>가솔린</p>
+                                    </div><!-- .title end -->
+                                    <figure>
+                                        <img src="img/model02-1_trim.png" alt="차종02">
+                                    </figure>
+                                    <div class="btn-slide">
+                                        <span>자세히보기</span>
+                                    </div><!-- .btn-slide end -->
+                                </div><!-- box-slide end -->
+                            </div><!-- .swiper-slide /02 end -->
+                            <div class="swiper-slide">
+                                <div class="box-slide">
+                                    <div class="title">
+                                        <h4>BMW iX M60</h4>
+                                        <p>순수전기</p>
+                                    </div><!-- .title end -->
+                                    <figure>
+                                        <img src="img/model01-1_trim.png" alt="차종03">
+                                    </figure>
+                                    <div class="btn-slide">
+                                        <span>자세히보기</span>
+                                    </div><!-- .btn-slide end -->
+                                </div><!-- box-slide end -->
+                            </div><!-- .swiper-slide /03 end -->
+                            <div class="swiper-slide">
+                                <div class="box-slide">
+                                    <div class="title">
+                                        <h4>BMW M240i xDrive 쿠페</h4>
+                                        <p>가솔린</p>
+                                    </div><!-- .title end -->
+                                    <figure>
+                                        <img src="img/model04.png" alt="차종04">
+                                    </figure>
+                                    <div class="btn-slide">
+                                        <span>자세히보기</span>
+                                    </div><!-- .btn-slide end -->
+                                </div><!-- box-slide end -->
+                            </div><!-- .swiper-slide /04 end -->
+                            <div class="swiper-slide">
+                                <div class="box-slide">
+                                    <div class="title">
+                                        <h4>BMW 뉴 XM 레이블 레드</h4>
+                                        <p>플러그인 하이브리드</p>
+                                    </div><!-- .title end -->
+                                    <figure>
+                                        <img src="img/model12.png" alt="차종05">
+                                    </figure>
+                                    <div class="btn-slide">
+                                        <span>자세히보기</span>
+                                    </div><!-- .btn-slide end -->
+                                </div><!-- box-slide end -->
+                            </div><!-- .swiper-slide /05 end -->
+                            <div class="swiper-slide">
+                                <div class="box-slide">
+                                    <div class="title">
+                                        <h4>BMW iX</h4>
+                                        <p>순수전기</p>
+                                    </div><!-- .title end -->
+                                    <figure>
+                                        <img src="img/model06.png" alt="차종06">
+                                    </figure>
+                                    <div class="btn-slide">
+                                        <span>자세히보기</span>
+                                    </div><!-- .btn-slide end -->
+                                </div><!-- box-slide end -->
+                            </div><!-- .swiper-slide /06 end -->
+                            <div class="swiper-slide">
+                                <div class="box-slide">
+                                    <div class="title">
+                                        <h4>BMW i4</h4>
+                                        <p>순수전기</p>
+                                    </div><!-- .title end -->
+                                    <figure>
+                                        <img src="img/model07.png" alt="차종07">
+                                    </figure>
+                                    <div class="btn-slide">
+                                        <span>자세히보기</span>
+                                    </div><!-- .btn-slide end -->
+                                </div><!-- box-slide end -->
+                            </div><!-- .swiper-slide /07 end -->
+                            <div class="swiper-slide">
+                                <div class="box-slide">
+                                    <div class="title">
+                                        <h4>BMW M3 컴페티션</h4>
+                                        <p>가솔린</p>
+                                    </div><!-- .title end -->
+                                    <figure>
+                                        <img src="img/model08.png" alt="차종08">
+                                    </figure>
+                                    <div class="btn-slide">
+                                        <span>자세히보기</span>
+                                    </div><!-- .btn-slide end -->
+                                </div><!-- box-slide end -->
+                            </div><!-- .swiper-slide /08 end -->
+                            <div class="swiper-slide">
+                                <div class="box-slide">
+                                    <div class="title">
+                                        <h4>BMW M8 컴페티션 쿠페</h4>
+                                        <p>가솔린</p>
+                                    </div><!-- .title end -->
+                                    <figure>
+                                        <img src="img/model09.png" alt="차종09">
+                                    </figure>
+                                    <div class="btn-slide">
+                                        <span>자세히보기</span>
+                                    </div><!-- .btn-slide end -->
+                                </div><!-- box-slide end -->
+                            </div><!-- .swiper-slide /09 end -->
+                            <div class="swiper-slide">
+                                <div class="box-slide">
+                                    <div class="title">
+                                        <h4>BMW 4시리즈 컨버터블</h4>
+                                        <p>가솔린</p>
+                                    </div><!-- .title end -->
+                                    <figure>
+                                        <img src="img/model10.png" alt="차종10">
+                                    </figure>
+                                    <div class="btn-slide">
+                                        <span>자세히보기</span>
+                                    </div><!-- .btn-slide end -->
+                                </div><!-- box-slide end -->
+                            </div><!-- .swiper-slide /10 end -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div><!-- .inner end -->
+            </section><!-- .cont01 end -->
+            <section class="cont02">
+                <div class="inner">
+                    <a href="#">
+                        <img src="img/loop_Build-And-Price_black_60x60_hover.gif" alt="견적내기">
+                        <p>견적내기</p>
+                    </a>
+                    <a href="#">
+                        <img src="img/loop_Price_black_60x60_hover.gif" alt="구매상담">
+                        <p>구매상담</p>
+                    </a>
+                    <a href="#">
+                        <img src="img/loop_Book-a-Test-Drive_black_60x60_hover.gif" alt="시승신청">
+                        <p>시승신청</p>
+                    </a>
+                    <a href="#">
+                        <img src="img/loop_Download-E-Brochure_black_60x60_hover.gif" alt="카탈로그">
+                        <p>카탈로그</p>
+                    </a>
+                </div><!-- .inner end -->
+            </section><!-- .cont02 end -->
+            <section class="cont03">
+                <div class="inner">
+                    <div class="title">
+                        <h3 data-aos="fade-up">BMW EVENTS</h3>
+                        <p data-aos="fade-up">BMW에서 진행중인 다양한 이벤트를 소개합니다.</p>
+                        <div data-aos="fade-up" class="btn_slide">
+                            <span>이벤트 보기</span>
+                        </div><!-- .btn_slide end -->
+                    </div><!-- .title end -->
+                </div><!-- .inner end -->
+            </section><!-- .cont03 end -->
+            <section class="cont04">
+                <div class="inner">
+                    <div class="title">
+                        <h3>NEWS</h3>
+                        <p>BMW의 모빌리티 솔루션 및 지속가능한 비전 활동을 소개합니다.</p>
+                    </div><!-- .title end -->
+                    <div class="list">
+                        <div class="item_wrap">
+                            <div class="item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="img/뉴스_왼아래.png" alt="컨텐츠01">
+                                    </figure>
+                                    <div class="text">
+                                        <span>전기차</span>
+                                        <p>BMW i5 전비 테스트의 놀라운 결과</p>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end -->
+                            <div class="item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="img/뉴스_왼아래02.png" alt="컨텐츠02">
+                                    </figure>
+                                    <div class="text">
+                                        <span>전기차</span>
+                                        <p>BMW ‘i’ 브랜드의 시작부터 지금까지</p>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end /02 -->
+                        </div><!-- .item_wrap end -->
+
+                        <div class="item_center">
+                            <a href="#">
+                                <figure>
+                                    <img src="img/뉴스_가운데.jpg" alt="컨텐츠03">
+                                </figure>
+                                <div class="text">
+                                    <span>car life</span>
+                                    <p>자동차안전도평가(KNCAP)에서 최우수 차량 <br> 선정된 BMW 뉴 i5</p>
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .item_center end -->
+
+                        <div class="item_wrap">
+                            <div class="item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="img/KAMI8815.jpg" alt="컨텐츠04">
+                                    </figure>
+                                    <div class="text">
+                                        <span>시승기</span>
+                                        <p>[시승기] 한국 소비자를 향한 애정이 고스란히 <br> 녹아 있는 BMW 520i</p>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end -->
+                            <div class="item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="img/뉴스_오아래.png" alt="컨텐츠05">
+                                    </figure>
+                                    <div class="text">
+                                        <span>미래재단</span>
+                                        <p>BMW 코리아가 양성하는 대한민국의 꿈나무들</p>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end /02 -->
+                        </div><!-- .item_wrap end -->
+                    </div><!-- .list end -->
+                </div><!-- .inner end -->
+            </section><!-- .cont04 end -->
+            <section class="cont05">
+                <div class="title">
+                    <p>INSTAGRAM</p>
+                    <h3>EXPERIENCE BMW</h3>
+                </div><!-- .title end -->
+                <div class="list">
+                    <div class="item_wrap">
+                        <div class="item">
+                            <a class="item_instagram" href="https://www.instagram.com/p/C0dX5UiPuhV/?img_index=1"
+                                target="blank">
+                                <figure>
+                                    <img src="img/insta01.jpg" alt="컨텐츠01">
+                                </figure>
+                                <div class="text">
+                                    <img src="img/white_insta.png" alt="link_instagram">
+                                    <span>See More</span>
+                                    <img src="img/링크이동.png" alt="링크이동">
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .item end -->
+                        <div class="item">
+                            <a class="item_instagram" href="https://www.instagram.com/p/CllIVJ9P0DW/" target="blank">
+                                <figure>
+                                    <img src="img/bmw_christmas.jpg" alt="컨텐츠02">
+                                </figure>
+                                <div class="text">
+                                    <img src="img/white_insta.png" alt="link_instagram">
+                                    <span>See More</span>
+                                    <img src="img/링크이동.png" alt="링크이동">
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .item end /02-->
+                    </div><!-- .item_wrap end /01-->
+
+                    <div class="item_center">
+                        <div class="item">
+                            <a class="item_instagram" href="https://www.instagram.com/bmw_korea/" target="blank">
+                                <figure>
+                                    <img src="img/resized_MINI_잔망루피_PR_컨버터블.jpg" alt="컨텐츠03">
+                                </figure>
+                                <div class="text">
+                                    <img src="img/white_insta.png" alt="link_instagram">
+                                    <span>See More</span>
+                                    <img src="img/링크이동.png" alt="링크이동">
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .item end -->
+                        <div class="item">
+                            <a class="item_instagram" href="https://www.instagram.com/p/C0_Z2A5vT96/?img_index=1"
+                                target="blank">
+                                <figure>
+                                    <img src="img/insta03.jpg" alt="컨텐츠04">
+                                </figure>
+                                <div class="text">
+                                    <img src="img/white_insta.png" alt="link_instagram">
+                                    <span>See More</span>
+                                    <img src="img/링크이동.png" alt="링크이동">
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .item end /02-->
+                    </div><!-- .item_center end /02-->
+
+                    <div class="item_wrap">
+                        <div class="item">
+                            <a class="item_instagram" href="https://www.instagram.com/p/C1TOVE0PLXu/?img_index=1"
+                                target="blank">
+                                <figure>
+                                    <img src="img/insta02.jpg" alt="컨텐츠05">
+                                </figure>
+                                <div class="text">
+                                    <img src="img/white_insta.png" alt="link_instagram">
+                                    <span>See More</span>
+                                    <img src="img/링크이동.png" alt="링크이동">
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .item end -->
+                        <div class="item">
+                            <a class="item_instagram" href="https://www.instagram.com/p/Cwr-bLkvRXK/" target="blank">
+                                <figure>
+                                    <img src="img/insta01-2.jpg" alt="컨텐츠06">
+                                </figure>
+                                <div class="text">
+                                    <img src="img/white_insta.png" alt="link_instagram">
+                                    <span>See More</span>
+                                    <img src="img/링크이동.png" alt="링크이동">
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .item end /02-->
+                    </div><!-- .item_wrap end /03-->
+                </div><!-- .list end -->
+            </section><!-- .cont05 end -->
+        </main><!-- #main end -->
+        <footer class="footer" id="footer">
+            <div class="footer_inner01">
+                <div class="footer-sitemap">
+                    <span class="footer-sitemap-menu">
+                        BMW 그룹
+                        <div class="footer-sitemap-submenu">
+                            <a href="#" target="blank" class="smalltext">기업소개</a>
+                            <a href="#" target="blank" class="smalltext">인재채용</a>
+                            <a href="#" target="blank" class="smalltext">BMW 드라이빙 센터</a>
+                            <a href="#" target="blank" class="smalltext">BMW 모토라드 코리아</a>
+                            <a href="#" target="blank" class="smalltext">BMW 코리아 미래재단</a>
+                            <a href="#" target="blank" class="smalltext">BMW 콘택트</a>
+                            <a href="#" target="blank" class="smalltext">BMW 파이낸셜 서비스</a>
+                            <a href="#" target="blank" class="smalltext">BMW.com</a>
+                            <a href="#" target="blank" class="smalltext">MINI 코리아 </a>
+                        </div><!-- .footer-sitemap-submenu end -->
+                    </span><!-- .footer-sitemap-menu end /01-->
+                    <span class="footer-sitemap-menu">
+                        법률 약관 정보
+                        <div class="footer-sitemap-submenu">
+                            <a href="#" target="blank" class="smalltext">서비스케어 플러스 이용약관</a>
+                            <a href="#" target="blank" class="smalltext">영상정보처리기기 운영·관리 방침</a>
+                            <a href="#" target="blank" class="smalltext">외부감사인 변경선임 공고</a>
+                            <a href="#" target="blank" class="smalltext">워런티 플러스 이용약관</a>
+                            <a href="#" target="blank" class="smalltext">커넥티드 드라이브 ‘이용약관’ 개정 안내</a>
+                            <a href="#" target="blank" class="smalltext">커넥티드 드라이브 이용약관</a>
+                            <a href="#" target="blank" class="smalltext">BMW 코리아 한국형 레몬법 적용</a>
+                            <a href="#" target="blank" class="smalltext">BMW 리콜 대상 차량 조회</a>
+                            <a href="#" target="blank" class="smalltext">BMW 밴티지 앱 이용약관</a>
+                        </div><!-- .footer-sitemap-submenu end -->
+                    </span><!-- .footer-sitemap-menu end /02-->
+                    <span class="footer-sitemap-menu">
+                        BMW 공식 채널
+                        <div class="footer-sitemap-submenu">
+                            <a href="#" target="blank" class="smalltext">BMW 네이버 포스트</a>
+                            <a href="#" target="blank" class="smalltext">BMW 인스타그램</a>
+                            <a href="#" target="blank" class="smalltext">BMW 유튜브</a>
+                            <a href="#" target="blank" class="smalltext">BMW 코리아 카카오톡 채널</a>
+                            <a href="#" target="blank" class="smalltext">BMW 페이스북</a>
+                        </div><!-- .footer-sitemap-submenu end -->
+                    </span><!-- .footer-sitemap-menu end /03-->
+                    <span class="footer-sitemap-menu">
+                        사업자등록정보
+                        <div class="footer-sitemap-submenu">
+                            <a href="#" target="blank" class="smalltext">사업자등록번호 : 211-86-08983</a>
+                            <a href="#" target="blank" class="smalltext">통신판매업신고번호 : 2014-서울중구-0829</a>
+                            <a href="#" target="blank" class="smalltext">대표이사 : 한상윤</a>
+                            <a href="#" target="blank" class="smalltext">주소 : 서울특별시 중구 퇴계로 100</a>
+                            <a href="#" target="blank" class="smalltext">대표전화 : 080-700-8000</a>
+                            <a href="#" target="blank" class="smalltext">이메일 : bmw@bmw.co.kr</a>
+                            <a href="#" target="blank" class="smalltext">사업자등록정보확인</a>
+                        </div><!-- .footer-sitemap-submenu end -->
+                    </span><!-- .footer-sitemap-menu end /04-->
+                </div><!-- .footer-sitemap end -->
+                <div class="footer-notice">
+                    <a href="#" target="blank">개인정보 처리방침</a>
+                    <a href="#" target="blank">개인정보 처리방침 변경에 대한 안내</a>
+                </div><!-- .footer-notice end -->
+                <div class="footer-button">
+                    <a href="https://www.instagram.com/bmw_korea/" target="blank">
+                        <figure><img src="img/trim_instagram.png" alt="인스타그램"></figure>
+                    </a>
+                    <a href="https://www.facebook.com/BMWKorea" target="blank">
+                        <figure><img src="img/trim_facebook.png" alt="페이스북"></figure>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCjQt5b5yorvPlLEskqNpABA" target="blank">
+                        <figure><img src="img/trim_youtube1.png" alt="유튜브"></figure>
+                    </a>
+                </div><!-- .footer-button end -->
+            </div><!-- .footer_inner01 end -->
+            <div class="footer_inner02">
+                <div class="footer-info">
+                    <span>© BMW Korea 2023</span>
+                    <div>
+                        <a href="#" target="blank">법적고지</a>
+                        <a href="#" target="blank">컨택트</a>
+                        <a href="#" target="blank">쿠키정책</a>
+                    </div>
+                </div><!-- .footer-info end -->
+            </div><!-- .footer_inner02 end -->
+        </footer><!-- .footer end -->
+    </div><!-- #wrap end -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        var player = videojs("myPlayer", {
+            sources: [
+                { src: "https://bmw.scene7.com/is/content/BMW/P001_SL_G60-8135_Ext_Dsk_v001-AVS.m3u8" }
+            ],
+            poster: "https://bmw.scene7.com/is/content/BMW/P001_SL_G60-8135_Ext_Dsk_v001-AVS.m3u8",
+            controls: false,
+            playsinline: true,
+            muted: true,
+            loop: true,
+            autoplay: true,
+            preload: "metadata",
+            controlBar: {
+                playToggle: false,
+                pictureInPictureToggle: false,
+                remainingTimeDisplay: false,
+                progressControl: false,
+            }
+        });
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            speed: 600,
+        });
+
+        AOS.init();
+    </script>
+</body>
+
+</html>
